@@ -11,7 +11,7 @@ Vagrant.configure(2) do |config|
       sudo apt-get install -y nasm
       sudo apt-get install -y xorriso
       sudo apt-get install -y qemu
-      curl -sSf https://static.rust-lang.org/rustup.sh | sh -s -- --channel=beta
+      curl -sSf https://static.rust-lang.org/rustup.sh | sh -s -- -y --channel=nightly
   SHELL
 
   config.ssh.forward_x11 = true
