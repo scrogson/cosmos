@@ -1,0 +1,10 @@
+[package]
+name = "cosmos"
+version = "0.1.0"
+authors = ["Sonny Scroggin <sonny@scrogg.in>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rlibc = "0.1.4"
