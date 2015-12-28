@@ -1,4 +1,4 @@
-# x86 kernel
+# CosmOS
 
 > a minimal x86 kernel
 
