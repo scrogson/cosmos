@@ -2,8 +2,22 @@
 name = "cosmos"
 version = "0.1.0"
 dependencies = [
+ "multiboot2 0.1.0 (git+https://github.com/phil-opp/multiboot2-elf64)",
  "rlibc 0.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
  "spin 0.3.4 (registry+https://github.com/rust-lang/crates.io-index)",
+]
+
+[[package]]
+name = "bitflags"
+version = "0.3.3"
+source = "git+https://github.com/phil-opp/bitflags.git?branch=no_std#440e5b2b187b223fa128fbabb4a037a143359d25"
+
+[[package]]
+name = "multiboot2"
+version = "0.1.0"
+source = "git+https://github.com/phil-opp/multiboot2-elf64#1e81e1008dea442af8187ecfccc8b87328fc07b4"
+dependencies = [
+ "bitflags 0.3.3 (git+https://github.com/phil-opp/bitflags.git?branch=no_std)",
 ]
 
 [[package]]
